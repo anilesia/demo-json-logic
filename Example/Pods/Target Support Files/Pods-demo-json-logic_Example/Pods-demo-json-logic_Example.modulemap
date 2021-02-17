@@ -1,0 +1,6 @@
+framework module Pods_demo_json_logic_Example {
+  umbrella header "Pods-demo-json-logic_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

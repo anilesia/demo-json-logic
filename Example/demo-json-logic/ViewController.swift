@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import demo_json_logic
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        do {
+            let cc = try JsonLogic("djijhdeiidjed")
+        }
+        catch {
+            
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,6 +26,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+   
 
 }
 

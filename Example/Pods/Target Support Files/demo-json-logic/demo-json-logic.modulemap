@@ -1,0 +1,6 @@
+framework module demo_json_logic {
+  umbrella header "demo-json-logic-umbrella.h"
+
+  export *
+  module * { export * }
+}

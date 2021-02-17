@@ -1,0 +1,23 @@
+PODS:
+  - demo-json-logic (0.1.0):
+    - json-enum (~> 1.0)
+  - json-enum (1.0.0)
+
+DEPENDENCIES:
+  - demo-json-logic (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - json-enum
+
+EXTERNAL SOURCES:
+  demo-json-logic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  demo-json-logic: 322d8e2a327052f4a0085764c8c9d47a3c3f0314
+  json-enum: 64e6b6ae91fda4982e6179a8900b7f5d981c47b0
+
+PODFILE CHECKSUM: 4413121226a31c5fdf7bdc78dfc6b1f2228d744d
+
+COCOAPODS: 1.10.1
