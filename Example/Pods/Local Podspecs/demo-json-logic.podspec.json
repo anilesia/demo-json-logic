@@ -1,0 +1,29 @@
+{
+  "name": "demo-json-logic",
+  "version": "0.1.0",
+  "summary": "json logic validator for swift",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anilesia",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bakhla.anil11@gmail.com": "abakhla@kiwiup.com"
+  },
+  "source": {
+    "git": "https://github.com/anilesia/demo-json-logic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "demo-json-logic/Classes/**/*",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "json-enum": [
+      "~> 1.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

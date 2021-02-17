@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'demo-json-logic_Example' do
+  pod 'demo-json-logic', :path => '../'
+
+  target 'demo-json-logic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
