@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'demo-json-logic'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'json logic validator for swift'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bakhla.anil11@gmail.com' => 'abakhla@kiwiup.com' }
-  s.source           = { :git => 'https://github.com/anilesia/demo-json-logic.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/anilesia/demo-json-logic.git', :tag => s.version.to_s, :branch => "main" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
